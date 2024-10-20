@@ -1,0 +1,57 @@
+<!--Task 1: design a <nav> bar with interactive links that change appearance on :hover. Use pseudoclasses-->
+<!--Task 2: Create inage gallery where images enlarge or transition smoothlly when hovered over-->
+<!--Task 3: Integrate Call-to-Action (CTA) buttons for "Watch Now", "Listen here" or "Play Game". 
+    style with :hover-->
+<!--Task 4: Make a Feedback form for comments, ratings, or suggestions about content.
+    Use CSS pseudoclasses to style form elements-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Creating an Engaging Entertainment Page with Multimedia and CSS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header><h1>Creating an Engaging Entertainment Page</h1></header>
+        <nav><!--Task 1-->
+            <ul>
+                <li><a href="#images">link 1</a></li>
+                <li><a href="#calltoaction">link 2</a></li>
+                <li><a href="#feedback">link 3</a></li>
+            </ul>
+        </nav>
+        <article id="images"><!--Task 2-->
+            <h2>Image Gallery</h2>
+        </article>
+        <article id="calltoaction">
+            <h2>"Call to Action" Buttons</h2>
+            <button class="media"><a href="https://youtu.be/dQw4w9WgXcQ?si=3f6KGpZZPTn-mGVl">Watch Now!</a></button>
+            <button class="media"><a href="audio.html">Listen Here!</a></button>
+        </article>
+        <article id="feedback"></article>
+            <form><!--Task 3-->
+                <label>Rating:</label>
+                <input id="star1" type="radio" name="rating" value="1">
+                <label for="star1">1</label>
+                <input id="star2" type="radio" name="rating" value="2">
+                <label for="star2">2</label>
+                <input id="starg3" type="radio" name="rating" value="3">
+                <label for="star3">3</label>
+                <input id="star4" type="radio" name="rating" value="4">
+                <label for="star4">4</label>
+                <input id="star5" type="radio" name="rating" value="5">
+                <label for="star5">5</label>
+
+                <br>
+                <br>
+                <label for="comments">Comments:</label>
+                <br>
+                <textarea name="comments" id="comments" placeholder="Please tell us how we can improve!"></textarea>
+                <br>
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </form>
+    </body>
+</html>
