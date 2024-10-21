@@ -107,6 +107,8 @@ button[type="submit"]:hover {
 .posters {
     height: 180px;
     width: 130px;
+    padding: 5px;
+    margin: 5px;
     border: ridge black;
     transition: 0.5s ease-in-out;
 }
