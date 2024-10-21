@@ -7,36 +7,59 @@ form {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+nav ol {
+    font-family: "Brush Script MT", cursive;
+    font-size: 15px;
+    font-weight: none;
+}
+nav a {
+    font-family: "Brush Script MT", cursive;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: none;
+    transition: 0.2s ease-in-out;
+}
+
+nav a:hover {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: green;
+}
+
 input[type="radio"] {
     cursor: pointer;
     transition: 1s ease-in-out;
     width: 15px;
     height: 15px;
-    transition: 0.5s ease-in-out
+
+    transition: 0.2s ease-in-out
 }
 
 input[type="radio"]:hover {
     accent-color: blue;
     box-shadow: 0 0 0 0.5px blue;
-    outline: 1px solid blue;
     width: 25px;
     height: 25px;
 }
 
 textarea {
-    width: 100%;
+    width: 50%;
     height: 3em;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
     box-sizing: border-box;
-    transition: height 1s ease-in-out;
+    transition: 1s ease-in-out;
     font-family: 'Times New Roman', Times, serif;
 }
 
 textarea:focus { 
     height: 10em;   
+    width: 100%;
 }
 
 button[type="reset"],
@@ -61,7 +84,6 @@ button[type="submit"]:hover {
 .media {
     background-color: green;
     color: white;
-    
     margin-bottom: 10px;
     border: solid darkgreen;
     border-radius: 5px;
@@ -71,6 +93,14 @@ button[type="submit"]:hover {
     height: 4em;
     width: 9em;
     transition: 0.5s ease-in-out;
+}
+
+.media:hover {
+    height: 6em;
+    width: 13.5em;
+    background-color: darkgreen;
+    border-radius: 200px;
+    border: solid black
 }
 
 .media a {
@@ -85,10 +115,3 @@ button[type="submit"]:hover {
     text-decoration: none;
 }
 
-.media:hover {
-    height: 8em;
-    width: 18em;
-    background-color: darkgreen;
-    border-radius: 200px;
-    border: solid black
-}
