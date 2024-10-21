@@ -18,12 +18,16 @@ nav a:visited {
     color: green;
 }
 
+body {
+    background-color: lightblue
+}
+
 form {
     margin-bottom: 20px;
     padding: 20px;
-    border: 1px solid #ccc; /*sets the border background*/
+    border: 1px solid #1b0fce; /*sets the border background*/
     border-radius: 5px; /*rounds the edges of the border*/
-    background-color: #f9f9f9; /*sets background color of each form*/
+    background-color: rgb(146, 192, 245); /*sets background color of each form*/
     font-family: Arial, Helvetica, sans-serif;
 }
 input[type="radio"] {
