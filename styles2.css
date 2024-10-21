@@ -1,0 +1,42 @@
+/*Task 1: Make an HTML form for User registration. 
+    -Include fields for name, email, passsword, and submit button.
+    -Style form with CSS--Focus on layout, spacing, borders, and hover effects.
+
+Task 2: Use <ul> for a navigation menu.
+    -Include links to Home, About, Services, and Contact pages.
+    -Style with CSS to create a horizontal menu with custom bullet points or icons.
+    -Apply hover affects to links.-->
+
+Task 3: Design a table to display data.
+    -Apply CSS to improve readability and visual appeal.
+    -Focus on header styles, cell padding, border styles, alternating row colors.*/
+
+   /*Task 2/*
+
+   
+    /*Task 1*/
+form {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: .3s ease-in-out;
+}
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+    border-color: green;
+    border-width: 1px;
+}
