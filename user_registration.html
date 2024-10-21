@@ -1,0 +1,78 @@
+<!--Task 1: Make an HTML form for User registration. 
+    -Include fields for name, email, passsword, and submit button.
+    -Style form with CSS--Focus on layout, spacing, borders, and hover effects.-->
+
+<!--Task 2: Use <ul> for a navigation menu.
+    -Include links to Home, About, Services, and Contact pages.
+    -Style with CSS to create a horizontal menu with custom bullet points or icons.
+    -Apply hover affects to links.-->
+
+<!--Task 3: Design a table to display data.
+    -Apply CSS to improve readability and visual appeal.
+    -Focus on header styles, cell padding, border styles, alternating row colors.-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Module 8 Lesson 2 Assignment 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles2.css">
+    </head>
+    <body>
+        <nav><!--Task 2-->
+            <h2>Table of Contents</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <article><!--Task 1-->
+            <h2>User Registration Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name here">
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email address">
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Enter your password">
+
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </form>
+        </article>
+        <article><!--Task 3-->
+            <h2>Product List</h2>
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                </tr>
+                <tr>
+                    <td>Xbox Series X</td>
+                    <td>$499.99</td>
+                    <td>In Stock</td>
+                </tr>
+                <tr>
+                    <td>Playstation 5 Pro</td>
+                    <td>$699.99</td>
+                    <th>In Stock</th>
+                </tr>
+                <tr>
+                    <td>Nintendo Switch OLED</td>
+                    <td>$349.99</td>
+                    <td>Out of Stock</td>
+                </tr>
+                <tr>
+                    <td>Nintendo Switch Lite</td>
+                    <td>$169.99</td>
+                    <td>In Stock</td>
+                </tr>
+            </table>
+        </article>
+    </body>
