@@ -11,9 +11,41 @@ Task 3: Design a table to display data.
     -Apply CSS to improve readability and visual appeal.
     -Focus on header styles, cell padding, border styles, alternating row colors.*/
 
-   /*Task 2/*
+body {
+    background-color: #cceaf8
+}
 
+h2 {
+    text-decoration: underline;
+    font-style: italic;
+    font-family: cursive;
+}   
    
+    /*Task 2*/
+nav ul {
+    list-style-type: "\1F44D";
+    display: flex;
+    margin: 10;
+    padding: 10;
+    
+}
+li {
+    margin-right: 30px;
+    font-size: 17px;
+    transition: font-size 0.5s ease-in-out;
+}
+
+li:hover {
+    font-size: 24px;
+}
+
+li a{
+    text-decoration: none;
+}
+
+li a:visited {
+    color: rgb(119, 5, 30);
+}
     /*Task 1*/
 form {
     margin-bottom: 20px;
@@ -39,4 +71,32 @@ input[type="email"]:hover,
 input[type="password"]:hover {
     border-color: green;
     border-width: 1px;
+}
+
+/*Task 3*/
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+th{
+    background-color: #04aa6d;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+tr:nth-child(odd) {
+    background-color: #baffdd
+}
+
+tr:hover {
+    background-color: #ddd
 }
